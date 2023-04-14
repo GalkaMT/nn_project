@@ -1,5 +1,5 @@
 # nn_project
-Image Classification.multi-page streamlit app<br>
+[Image Classification.multi-page streamlit app](https://galkamt-nn-project-streamlit-app-m9zubm.streamlit.app/)<br>
 
 Linear team:<br>
 https://github.com/IvaElen<br>
