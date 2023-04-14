@@ -5,7 +5,7 @@ from torchvision import transforms as T
 from PIL import Image
 
 def load_model():
-    model = torch.load('model_for_cells_proj.py', map_location = torch.device('cpu'))
+    model = torch.load('model_for_cells_proj.pt', map_location = torch.device('cpu'))
     model.eval()
     return model
 
