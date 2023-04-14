@@ -31,7 +31,7 @@ def load_image():
         return image_tensor
 
      
-
+st.markdown(""""<style>.main {background-color: #F5F5F5;}</style>""",unsafe_allow_html=True)
 st.title("Inception v.3 Classification Images")
 st.write('''Read more about this convolutional neural network [here](https://en.wikipedia.org/wiki/Inceptionv3') or [here](https://habr.com/ru/articles/302242/)''')
 
