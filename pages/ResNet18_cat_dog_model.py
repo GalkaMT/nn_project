@@ -1,18 +1,9 @@
 import streamlit as st
 import torch
-# import torchvision
-# import torch.nn as nn
-# from torch.utils.data import DataLoader
-# from torchvision import datasets
 from torchvision import transforms as T
 from io import BytesIO
-# from torchvision import io
-# import torchutils as tu
-# import json
-# import numpy as np
-# import matplotlib.pyplot as plt
 from PIL import Image
-# from io import BytesIO
+
 device ='cuda' if torch.cuda.is_available() else 'cpu'
 model = torch.load('model_obj.pt')
 model.eval()
@@ -37,6 +28,6 @@ if result:
     percent = model(img.to(device).unsqueeze(0)).sigmoid().item()
     cls = 'Это песель' if round(percent) == 1 else 'Это кошечка'
     st.write(cls)
-    percent = 1 - percent
+    if cls == 'Это кошечка':
+        percent = 1 - percent
     st.write(f'На {percent:.2%}')
-#print(img)
