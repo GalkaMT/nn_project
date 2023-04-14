@@ -46,10 +46,10 @@ streamlit==1.21.0
 sympy==1.11.1
 toml==0.10.2
 toolz==0.12.0
-torch==2.0.0+cpu
-torchaudio==2.0.1+cpu
+torch==2.0.0
+torchaudio==2.0.1
 torchutils==0.0.4
-torchvision==0.15.1+cpu
+torchvision==0.15.1
 tornado==6.2
 typing_extensions==4.4.0
 tzdata==2023.3
