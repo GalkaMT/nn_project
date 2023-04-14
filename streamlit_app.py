@@ -19,7 +19,7 @@ from torchvision.models import Inception_V3_Weights
 #         return None
 
 def load_image():
-    upload_file_img = st.file_uploader(label="Выберите изображение")
+    upload_file_img = st.file_uploader(label="Upload your file")
     if upload_file_img:
         img_data = upload_file_img.getvalue()
         st.image(img_data)
