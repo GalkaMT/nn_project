@@ -10,4 +10,4 @@
 Linear team:<br>
 [IvaElen](https://github.com/IvaElen)<br>
 [GalkaMT](https://github.com/GalkaMT)<br>
-[AlexeyPratsevityi](]https://github.com/AlexeyPratsevityi)<br>
+[AlexeyPratsevityi](https://github.com/AlexeyPratsevityi)<br>
