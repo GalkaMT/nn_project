@@ -1,5 +1,5 @@
 # nn_project
-Image Classification.multi-page streamlit &amp; telegram bot<br>
+Image Classification.multi-page streamlit app<br>
 
 Linear team:<br>
 https://github.com/IvaElen<br>
