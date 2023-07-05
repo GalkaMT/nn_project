@@ -8,16 +8,6 @@ from torchvision import transforms as T
 from torchvision.models import inception_v3
 from torchvision.models import Inception_V3_Weights
 
-
-# def load_file():
-#     uploaded_file = st.file_uploader( 'Upload your file', type=["jpg", "jpeg", "png"])
-#     if uploaded_file is not None:
-#         image_data = uploaded_file.getvalue()
-#         st.image(image_data)
-#         return Image.open(io.BytesIO(image_data))
-#     else:
-#         return None
-
 def load_image():
     upload_file_img = st.file_uploader(label="Upload your file")
     if upload_file_img:
